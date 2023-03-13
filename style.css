@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    border: 1px solid black;
+    height: 480px;
+    width: 480px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.container div {
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Yesteryear', 'cursive';
+    font-size: 64px;
+    color: rgb(165, 165, 30);
+    text-shadow: 1px 1px white;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+body {
+    background-color: rgb(127, 23, 23);
+}
+
+.button-box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: 'Yesteryear', 'cursive';
+    color: rgb(165, 165, 30);
+    text-shadow: 1px 1px white;
+    border: 2px solid rgb(165, 165, 30);
+}
+
+button:hover {
+    background-color: rgb(127, 23, 23);
+    color: white;
+    transform: translateY(-0.2em);
+    text-shadow: none;
+    transition: all 0.5s;
+}
