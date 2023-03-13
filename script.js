@@ -49,3 +49,5 @@ function setGrid () {
         square.addEventListener('mouseover', setColor, true)
     });
 };
+
+gridBtn.addEventListener('click', setGrid, true);
